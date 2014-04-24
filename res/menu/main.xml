@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_stop_holo_dark"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_stop"/>
+    <item
+        android:id="@+id/action_replay"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_replay_holo_dark"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_replay"/>
+    <item
+        android:id="@+id/action_change_instrument"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_change_instrument"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

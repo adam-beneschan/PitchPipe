@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp" 
+    android:background="#737ca1" 
+    tools:context=".MainActivity" >
+    
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_main"
+        android:name="com.adambeneschan.pitchpipe.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+  
+</LinearLayout>

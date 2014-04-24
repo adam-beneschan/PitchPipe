@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- BEGIN_INCLUDE(all) -->
+<resources>
+    <!-- Maximum time to play a chord (ms) -->
+    <integer name="chord_duration">5000</integer>
+
+    <!-- Maximum time to play a note when Listen is selected from menu (ms) -->
+    <integer name="listen_duration">2000</integer>
+
+    <!-- Time between the start of each note when replaying (rolling) a chord (ms) -->
+    <integer name="roll_delay">300</integer>
+    
+    <!-- Default MIDI instrument (53 = Choir Aahs) -->
+    <integer name="default_instrument">53</integer>
+
+    <!-- List of supported MIDI instruments.  Each entry is a string in -->
+    <!-- the form <prog>:<fade>, where <prog> is the MIDI program code, -->
+    <!-- and <fade> is the approximate time in ms it takes for a note   -->
+    <!-- to fade out, or "none" if the note doesn't fade out.  Only     -->
+    <!-- instruments listed here appear in the Instruments menu.        -->
+    
+    <!-- MIDI program codes are at http://www.midi.org/techspecs/gm1sound.php -->
+    <!-- Drum-type instruments, special effects excluded from list.     -->
+    <!-- Also, instruments that are too percussive are excluded,        -->
+    <!-- since chords don't sound good using them.                      -->
+    
+    <!-- Fade times are approximate and based on experimentation with   -->
+    <!-- my Samsung Galaxy Note 3.                                      -->
+        
+    <array name="instrument_list">
+        <item>1;3000</item>
+        <item>2;3000</item>
+        <item>3;3000</item>
+        <item>4;2000</item>
+        <item>5;3000</item>
+        <item>6;3000</item>
+        <item>7;2000</item>
+        <item>8;3000</item>
+        <item>9;1000</item>
+        <item>10;1000</item>
+        <item>11;1000</item>
+        <item>12;2000</item>
+        <item>16;1000</item>
+        <item>17;none</item>
+        <item>18;none</item>
+        <item>19;none</item>
+        <item>20;none</item>
+        <item>21;none</item>
+        <item>22;none</item>
+        <item>23;none</item>
+        <item>24;none</item>
+        <item>25;2000</item>
+        <item>26;2000</item>
+        <item>27;3000</item>
+        <item>28;1500</item>
+        <item>30;none</item>
+        <item>31;none</item>
+        <item>32;none</item>
+        <item>33;2000</item>
+        <item>34;4000</item>
+        <item>35;4000</item>
+        <item>36;3000</item>
+        <item>37;3000</item>
+        <item>38;3000</item>
+        <item>40;2000</item>
+        <item>41;none</item>
+        <item>42;none</item>
+        <item>43;none</item>
+        <item>44;none</item>
+        <item>45;none</item>
+        <item>49;none</item>
+        <item>50;none</item>
+        <item>51;none</item>
+        <item>52;none</item>
+        <item>53;none</item>
+        <item>54;none</item>
+        <item>55;none</item>
+        <item>57;none</item>
+        <item>58;none</item>
+        <item>59;none</item>
+        <item>60;none</item>
+        <item>61;none</item>
+        <item>62;none</item>
+        <item>63;none</item>
+        <item>64;none</item>
+        <item>65;none</item>
+        <item>66;none</item>
+        <item>67;none</item>
+        <item>68;none</item>
+        <item>69;none</item>
+        <item>70;none</item>
+        <item>71;none</item>
+        <item>72;none</item>
+        <item>73;none</item>
+        <item>74;none</item>
+        <item>75;none</item>
+        <item>76;none</item>
+        <item>77;none</item>
+        <item>78;none</item>
+        <item>79;none</item>
+        <item>80;none</item>
+        <item>105;4000</item>
+        <item>108;1000</item>
+        <item>109;1000</item>
+        <item>110;none</item>
+        <item>111;none</item>
+        <item>112;none</item>
+        <item>113;1000</item>
+    </array>
+</resources>
+<!-- END_INCLUDE(all) -->

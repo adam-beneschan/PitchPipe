@@ -1,0 +1,8 @@
+bin/
+gen/
+out/
+.idea
+*.ipr
+*.iml
+*.iws
+*~

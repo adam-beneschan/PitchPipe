@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- BEGIN_INCLUDE(all) -->
+<resources>
+    <!-- Names of supported MIDI instruments.  Each entry is a string in -->
+    <!-- the form <prog>:<name>, where <prog> is the MIDI program code,  -->
+    <!-- and <name> is the name.  Only instruments listed in the         -->
+    <!-- "instrument_list" array (in others.xml) actually appear in the  -->
+    <!-- Instruments menu.  This array is in a separate file so that it  -->
+    <!-- can be internationalized.                                       -->
+    
+    <!-- Codes, names taken from http://www.midi.org/techspecs/gm1sound.php -->
+    
+    <array name="instrument_names">
+        <item>1;Acoustic Grand Piano</item>
+        <item>2;Bright Acoustic Piano</item>
+        <item>3;Electric Grand Piano</item>
+        <item>4;Honky-tonk Piano</item>
+        <item>5;Electric Piano 1</item>
+        <item>6;Electric Piano 2</item>
+        <item>7;Harpsichord</item>
+        <item>8;Clavi</item>
+        <item>9;Celesta</item>
+        <item>10;Glockenspiel</item>
+        <item>11;Music Box</item>
+        <item>12;Vibraphone</item>
+        <item>16;Dulcimer</item>
+        <item>17;Drawbar Organ</item>
+        <item>18;Percussive Organ</item>
+        <item>19;Rock Organ</item>
+        <item>20;Church Organ</item>
+        <item>21;Reed Organ</item>
+        <item>22;Accordion</item>
+        <item>23;Harmonica</item>
+        <item>24;Tango Accordion</item>
+        <item>25;Acoustic Guitar (nylon)</item>
+        <item>26;Acoustic Guitar (steel)</item>
+        <item>27;Electric Guitar (jazz)</item>
+        <item>28;Electric Guitar (clean)</item>
+        <item>30;Overdriven Guitar</item>
+        <item>31;Distortion Guitar</item>
+        <item>32;Guitar harmonics</item>
+        <item>33;Acoustic Bass</item>
+        <item>34;Electric Bass (finger)</item>
+        <item>35;Electric Bass (pick)</item>
+        <item>36;Fretless Bass</item>
+        <item>37;Slap Bass 1</item>
+        <item>38;Slap Bass 2</item>
+        <item>40;Synth Bass 2</item>
+        <item>41;Violin</item>
+        <item>42;Viola</item>
+        <item>43;Cello</item>
+        <item>44;Contrabass</item>
+        <item>45;Tremolo Strings</item>
+        <item>49;String Ensemble 1</item>
+        <item>50;String Ensemble 2</item>
+        <item>51;SynthStrings 1</item>
+        <item>52;SynthStrings 2</item>
+        <item>53;Choir Aahs</item>
+        <item>54;Voice Oohs</item>
+        <item>55;Synth Voice</item>
+        <item>57;Trumpet</item>
+        <item>58;Trombone</item>
+        <item>59;Tuba</item>
+        <item>60;Muted Trumpet</item>
+        <item>61;French Horn</item>
+        <item>62;Brass Section</item>
+        <item>63;SynthBrass 1</item>
+        <item>64;SynthBrass 2</item>
+        <item>65;Soprano Sax</item>
+        <item>66;Alto Sax</item>
+        <item>67;Tenor Sax</item>
+        <item>68;Baritone Sax</item>
+        <item>69;Oboe</item>
+        <item>70;English Horn</item>
+        <item>71;Bassoon</item>
+        <item>72;Clarinet</item>
+        <item>73;Piccolo</item>
+        <item>74;Flute</item>
+        <item>75;Recorder</item>
+        <item>76;Pan Flute</item>
+        <item>77;Blown Bottle</item>
+        <item>78;Shakuhachi</item>
+        <item>79;Whistle</item>
+        <item>80;Ocarina</item>
+        <item>105;Sitar</item>
+        <item>108;Koto</item>
+        <item>109;Kalimba</item>
+        <item>110;Bag pipe</item>
+        <item>111;Fiddle</item>
+        <item>112;Shanai</item>
+        <item>113;Tinkle Bell</item>
+    </array>
+</resources>
+<!-- END_INCLUDE(all) -->

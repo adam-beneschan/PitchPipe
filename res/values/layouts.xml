@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- BEGIN_INCLUDE(all) -->
+<resources>
+    <!-- The text size for C, D, etc., on buttons -->
+    <integer name="normal_text_size">14</integer>
+    <!-- The text size for accidentals (C#/Db), etc., on buttons -->
+    <integer name="accidental_text_size">12</integer>
+
+    <!-- The width of note buttons -->
+    <integer name="button_width">220</integer>
+    <!-- The height of note buttons -->
+    <integer name="button_height">100</integer>
+    
+    <!-- Text to insert between notes in an accidental -->
+    <string name="accidental_separator">/</string>
+</resources>
+<!-- END_INCLUDE(all) -->
